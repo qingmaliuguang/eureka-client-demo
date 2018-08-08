@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: data-produce-platform
+  profiles:
+    active: default,zipkin
+  config:
+    additional-location: file:./config-local/
